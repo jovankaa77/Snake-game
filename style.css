@@ -1,0 +1,27 @@
+/* Set margin and padding 0 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(20, 12, 12);
+}
+
+.snake {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(45deg, rgb(62, 142, 84), rgb(184, 149, 60));
+  border-radius: 50%;
+  transform: translate(50%, 50%);
+  /* It sets the ball middle of your mouse */
+  position: absolute;
+}
+.snake img {
+  width: 100%;
+  height: 100%;
+}
